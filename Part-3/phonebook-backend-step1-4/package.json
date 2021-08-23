@@ -1,0 +1,23 @@
+{
+  "name": "phonebook-backend-step1",
+  "version": "1.0.0",
+  "description": "'phonebook app to store the relevant data'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"	
+  },
+  "repository": {
+    "type": "git",
+    "url": "'FullStackOpen.git'"
+  },
+  "author": "'the-last-crusaderr'",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

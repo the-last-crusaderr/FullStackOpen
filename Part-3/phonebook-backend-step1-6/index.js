@@ -4,6 +4,14 @@ const app = express()
 
 app.use(express.json())                   //It is used to parse the json post request to object
 
+app.use(express.static('build'))
+
+const cors = require('cors')
+app.use(cors())
+
+
+
+
 let persons = [
     { 
       "id": 1,
@@ -81,7 +89,7 @@ app.post('/api/persons',(request,response) => {
 
 
 
-const PORT = process.env.PORT || 3001
+const PORT = 3001
 app.listen( PORT, () => console.log(`Listening to port-${PORT}`) )
 
 

@@ -145,7 +145,7 @@ const App = () => {
 
   return (
     <div>
-      <Notification message{notif}/>
+      <Notification message={notif}/>
       <h2>Phonebook</h2>
       <form onSubmit={addName}>
         filter shown with
@@ -169,4 +169,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App; 
